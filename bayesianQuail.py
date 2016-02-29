@@ -4,7 +4,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.gridspec as gs
-
+# import pudb; pu.db
 locationx = 3
 locationy = 5
 location = [locationx, locationy]  # Where Quail is
