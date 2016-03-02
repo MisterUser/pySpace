@@ -32,6 +32,8 @@ def main():
 
     print(obj.ar)
 
+    print('\nEnd\n')
+
 if __name__ == "__main__":
     print('Starting script...\n')
     main()
