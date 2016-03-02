@@ -14,6 +14,9 @@ class ClassExample:
     def set_ar(self, ar):
         self.ar = ar
 
+    def yet_another(self):
+        print('new function')
+
 def main():
     print("neat")
 
