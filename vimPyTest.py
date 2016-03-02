@@ -8,6 +8,9 @@ class ClassExample:
     def __init__(self, ar):
         self.ar = ar
 
+    def op(self):
+        print(self.ar)
+
 def main():
     print("neat")
 
