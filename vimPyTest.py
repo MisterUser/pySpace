@@ -14,6 +14,9 @@ class ClassExample:
     def set_ar(self, ar):
         self.ar = ar
 
+    def yet_another(self):
+        print('new function')
+
 def main():
     print("neat")
 
@@ -23,6 +26,8 @@ def main():
         x += 1
     obj = ClassExample(np.arange(10).reshape(2, 5))
     print(obj.ar)
+
+    print('\nEnd\n')
 
 if __name__ == "__main__":
     print('Starting script...\n')
