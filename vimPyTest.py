@@ -17,16 +17,11 @@ class ClassExample:
 def main():
     print("neat")
 
-
-
     x = 1
     for i in range(1, 100):
         print('x={}'.format(x))
         x += 1
     obj = ClassExample(np.arange(10).reshape(2, 5))
-
-
-
     print(obj.ar)
 
 if __name__ == "__main__":
