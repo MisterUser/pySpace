@@ -11,6 +11,9 @@ class ClassExample:
     def op(self):
         print(self.ar)
 
+    def set_ar(self, ar):
+        self.ar = ar
+
 def main():
     print("neat")
 
