@@ -1,7 +1,7 @@
 import math
 
-def print_pi():
-    print(math.pi)
+def area(r):
+    return math.pi * r**2
 
 
 # @FIXME Hair
