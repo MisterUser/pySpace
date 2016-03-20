@@ -1,7 +1,6 @@
 # @TODO start project
 # @TODO NerdTree
 # @TODO SuperTab or Python Mode
-# import pudb; pudb.set_trace()  # XXX BREAKPOINT
 import numpy as np
 
 class ClassExample:
@@ -18,6 +17,7 @@ class ClassExample:
         print('new function')
 
 def main():
+    import pudb; pudb.set_trace()  # XXX BREAKPOINT
     print("neat")
 
     x = 1
